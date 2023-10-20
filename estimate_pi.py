@@ -20,7 +20,7 @@ def estimate_pi(n):
 
     return 4 * numPointCircle/numPointTotal
 
-numOfPoints = 10000000
+numOfPoints = int(input("Enter the number of points: "))
 
 print(f"Pi estimate with number of points in the circle as {numOfPoints} = " + str(estimate_pi(numOfPoints)))
 
